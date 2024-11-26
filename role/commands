@@ -1,0 +1,6 @@
+kubectl auth can-i get pods --as jane
+yes
+kubectl auth can-i watch pods --as jane
+yes
+kubectl auth can-i delete pods --as jane
+no

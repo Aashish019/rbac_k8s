@@ -1,0 +1,9 @@
+RBAC
+
+rbac in k8s 
+- it I s all about managing access to res. its not about identifying a specific user or authenticating them. with lots of people and res it is difficult to manage an inventory of who can access what so needed an automated system in place which can allow or deny access to res.
+
+role
+role binding
+cluster role
+cluster role binding

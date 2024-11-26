@@ -1,0 +1,7 @@
+kubectl auth can-i get secret --as dav  -n development 
+yes
+kubectl auth can-i get secret --as dav 
+no
+
+kubectl auth can-i get secret --as misba -A           
+yes
